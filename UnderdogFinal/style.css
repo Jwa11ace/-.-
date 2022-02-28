@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Shizuru&display=swap');
+
+.bg-light{
+  background-color: rgb(111, 170, 172) !important;
+  font-family:'Shizuru', cursive; 
+  color: rgb(255, 255, 255); 
+}
+
+.b {
+  background-color: rgb(157, 204, 202);
+}
+.j{
+  justify-content: flex-end;
+}
+nav{
+  
+  width: 100% !important;
+}
+.navbar-custom{
+  color:white !important; 
+} 
+  
+.navbar-custom:hover{
+  color:rgb(238, 168, 181);
+}
+
+container-fluid{
+width: 100rem;
+
+}
+  .bob{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  
+  .my-color{
+    padding: 6px;
+    padding-left: 35px;
+    padding-right: 35px;
+  background-color:rgb(238, 128, 179);
+  border: 3px solid rgb(4, 5, 5);
+  color:white;
+  border-radius: 25px;
+  font-family:'Shizuru', cursive; 
+  font-size: 27px; 
+  box-shadow: 5px 6px ;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+body {
+  background-color: rgb(211, 231, 231);
+  width:100%;
+}
+
+.about{
+  color: #fff;
+  margin-right: 100px;
+}
+
+footer {
+  padding-top: 60px ;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: #fff;
+    margin-bottom: 5rem;
+    font-family:'Shizuru', cursive; 
+}
+
+
+
+h2 {
+    font-size: 2.0rem;
+    margin-bottom: 4rem;
+    background-color: rgb(111, 170, 172);
+    font-family:'Shizuru', cursive; 
+    padding-bottom: 20px;
+    border-radius: 12px;
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+ .btn1 {
+  border: solid  2px rgb(0, 0, 0) ;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 5px;
+  width: 150px;
+  border-radius: 12px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family:'Shizuru', cursive; 
+} 
+.btn2 {
+  border: solid  2px rgb(0, 0, 0) ;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 5px;
+  width: 150px;
+  border-radius: 12px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-family:'Shizuru', cursive; 
+}
+.btn1:hover {
+    cursor: pointer;
+    box-shadow: 3px 4px rgba(96, 207, 202);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+.btn2:hover {
+  cursor: pointer;
+  box-shadow: 3px 4px rgb(96, 207, 202);
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
+
+.btn1[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+
+#highscore-btn {
+    background: linear-gradient(90deg, rgb(9, 255, 202) 0%, rgb(107, 224, 205) 100%);
+}
+
+#highscore-btn:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(126, 243, 198)
+}
+
+.fa-crown {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+/* End Page CSS */
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgb(122, 228, 219);
+    border-radius: 12px;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color: #fff;
+    text-align: center;
+    font-family:'Shizuru', cursive; 
+}
+
+#saveScoreBtn {
+    border: solid  2px rgb(0, 0, 0) ;
+    background-color: rgb(230, 146, 160);
+    padding: 8px 8px;
+    width: 100px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-family:'Shizuru', cursive; 
+}
+
+.fa-home {
+
+    margin-left: 1rem;
+    font-size: 10px;
+    color: rgb(90, 181, 197)
+    
+
+}

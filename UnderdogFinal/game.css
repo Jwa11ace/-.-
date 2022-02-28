@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto:wght@100&family=Shadows+Into+Light&family=Shizuru&display=swap');
+
+#question {
+    color: rgb(0, 0, 0);
+    font-family: 'Shizuru', cursive;
+    width: 40%;
+    padding: 15px 15px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    background-color:white;
+    font-size: 20px;
+    min-width: 20rem;
+    color:rgb(2, 27, 27);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.empty{
+    margin-bottom: 200px;
+}
+
+.q{
+max-width: 40%;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+}
+.choice-container {
+
+    display: flex;
+    margin-bottom: 0.8rem;
+    max-width: 40%;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    font-size: 15px;
+    min-width: 20rem;
+    color:rgb(4, 5, 5);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.choice-container:hover {
+    cursor: pointer;
+    background-color:pink;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(44, 131, 131, 0.5);
+    transform: scale(1.05);
+    transform: transform 80ms;
+    color:rgb(4, 5, 5);
+    max-width: 20;
+
+}
+.choice-prefix {
+    padding: 10px 10px;
+    color: rgb(221, 112, 188);
+    font-family: 'Shizuru', cursive;
+    font-size: medium;
+}
+ .choice-text {
+    padding: 10px 10px;
+    width: 100%;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: large;
+} 
+
+.correct {
+    background: linear-gradient(32deg, rgb(216, 100, 172) 0%, rgb(223, 114, 181) 100%)
+  
+}
+/* Heads up Display */
+#hud {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(1, 33, 41);
+  font-family:'Shizuru', cursive; 
+  margin-right: 50px;
+}
+.hud-prefix {
+  margin-top: 10px;
+  margin-left: 64px;
+  margin-right: 24px;
+  font-size: 2rem;
+  color:rgb(1, 33, 41);
+  font-family:'Shizuru', cursive; 
+}
+.hud-main-text {
+  margin-left: 30px;
+  margin-right: 0px;
+  font-size:40px;
+  text-align: center;
+  color: rgb(229, 153, 183);
+  font-family:'Shizuru', cursive; 
+  
+}
+
+#progressBar {
+    width: 20rem;
+    height: 2rem;
+    border: 0.2rem solid rgb(229, 150, 194);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-left: 60px;
+    background-color: rgba(226, 187, 214, 0.616);
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(229, 150, 194);
+    width: 0%;
+    
+   
+}
+@media screen and (max-width: 768px) {
+  .choice-container {
+      min-width: 40rem;
+  }
+}
+
+.e{
+  padding-top: 50px ;
+  padding-bottom: 10px;
+}
+

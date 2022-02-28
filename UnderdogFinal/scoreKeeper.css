@@ -1,0 +1,18 @@
+body {
+    color: rgb( 211, 231, 231);
+}
+
+.result img {
+   object-fit: cover;
+   height:100%;
+}
+
+.result {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 400px;
+    width:300px;
+}
